@@ -5,9 +5,10 @@
 *{
     margin: 0;
     padding: 0%;
+    
 }
 #sidebar1{
-    background-color: rgb(8,8,8);
+    background-color: rgba(7, 3, 24, 0.979);
     width:50%;
      top:5px;
     position: fixed;
@@ -29,6 +30,7 @@
 
 .sidebar nav{
     padding:20px;
+    opacity: 0.6;
 
 }
 .sidebar nav li{
@@ -42,7 +44,7 @@ padding:33px 0;
 .sidebar nav li a{
     
  text-decoration: none;
- color:rgb(90,90,90);
+ color:rgb(134, 131, 131);
  font-weight: bold;
  font-size: 25px;
  padding:0;
@@ -59,12 +61,12 @@ padding:33px 0;
 }
  .main{
      background-color:black ;
-    /* background-image:url('background2.jpg');
+   /* background-image:url('/980246.jpg');
      background-repeat: no-repeat;
      background-size: cover;
-     */
+    
      
-     height: 50vw;
+     height: 50vw;*/
 
  }
  
@@ -85,7 +87,7 @@ padding:33px 0;
       height: 78vh;
       
       margin-top:80px;
-      margin-left:100px;
+      
       padding-left: 15px;
       justify-content: space-around;
     
@@ -353,7 +355,7 @@ padding:33px 0;
 
 
     
-    /*footer------------------*/
+    /*---------------------------------------------------footer------------------*/
     footer{
         
         bottom: 0px;
@@ -428,6 +430,7 @@ padding:33px 0;
     width: 30px;
     padding-right:20px;
  }
+ /*----------------------end of the footer section -------------*/
 
  /*-----------intro page----*/
  .introContainer{
@@ -435,7 +438,7 @@ padding:33px 0;
      width:100%;
      height: 50vw;
      display: flex;
-     background-color: #f33c3c;
+     background-color: black;
  }
  .introduction{
      flex-basis: 50%;
@@ -460,7 +463,7 @@ padding:33px 0;
      color: #068886;
  }
  .skill{
-    
+    margin-top: 0px;
  display: block;
  flex-basis: 50%;
      background-color: black;
@@ -474,6 +477,7 @@ padding:33px 0;
  }
  .language h3{
      color: #068886;
+     margin-top: 80px;
      font-size: 80px;
     font-style: normal;
      text-align: center;
