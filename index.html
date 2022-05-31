@@ -1,175 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravindra kumar- Web developer</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---++++++++++ favicon=================-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-</head>
-<body style="background-color: black;">
-    <div class="container">
-        <div class="sidebar" >
-             <nav id="sidebar1">
-                  <ul> 
-                       <li><a href="index.html">Home</a></li>
-                       <li><a href="intro.html">About Me</a> </li>
-                       <li><a href="blog.html">Blog</a></li>
-                       <li><a href="contact.html">Contact me</a></li>
+    <title>Ravindra_Kumar</title>
 
-                  </ul>
-             </nav>
+    <!--=====================link css====================-->
+    <link rel="stylesheet" href="assets/css/style2.css" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+  </head>
+  <body style="background-color: rgba(20, 20, 20, 0.936);">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home"
+            ><img src="assets/img/R.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="main">
-            <div class="infoContainer">
-                 <div class="devInfo">
-                        <div class="hello"> Hi! I am</div>
-                        <div class="name">Ravindra Kumar</div>
-                        <div class="about">Web developer, programmer</div>
-                        <div class="moreAbout">Highly agnostic programmer with experience in C++,
-                            Java,Python, HTML, CSS and JavaScript,Php,DBMS.
-                            Actively seeking a job where I can implement my skills
-                            to solve issues and contribute to the growth of the
-                            organization. </div>
-                        <div class="buttons">
-                           <a  href="/cv.pdf" target="_blank"><button>Download CV</button></a>
-                         <a   href="/contact.html">  <button>Contact Me</button></a>
-                        </div> 
-                 </div>
-                 <div class="devPic"><img src="assets/img/ravi.gif" alt="Ravindra Kumar"></div>
-             </div>
+      </nav>
+    </header>
+    <!----============== hero section =======================-->
+    <section
+      class="home"
+      id="home"
+      style="
+        background-image: url('assets/img/back.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 380px;
+      "
+    >
+      <div class="container d-flex flex-column">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="hello">Hi! I am</div>
+            <div class="name">Ravindra Kumar</div>
+            <div class="aboutpara">Web developer, programmer</div>
+            <div class="moreAbout">
+              Highly agnostic programmer with experience in C++, Java,Python,
+              HTML, CSS and JavaScript,Php,DBMS. <br />
+              Actively seeking a job where I can implement my skills to solve
+              issues and contribute to the growth of the organization.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homebtn">
+        <a class="btn" href="cv.pdf" role="button">Download CV</a>
+        <a class="btn" href="#contact" role="button">Contact Me</a>
+      </div>
+    </section>
 
+    <!------------------  about me section     ------->
 
+    <!-------------- seprator  --------------------->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col-sm-7 aboutme">
+          <h1>Experience & Achievements</h1>
+          <hr color="white" />
+          <h2>
+            Virtual Cybersecurity Industry Internship In Association with
+            VPKBIET BARAMATI INDIA
+          </h2>
+          <br />
+          <p>
+            In this cybersecurity program, I have learned how to perform
+            brute-force attacks. And how to find vulnerabilities with the help
+            of SQL injection, XSS and how to detect fake mail, and many more.
+          </p>
+
+         <h2>Worked as Class Representative (07/2019 - 02/2020)</h2>
+          <p>Manage all the events and techfeest and organised fresher's.</p>
+          <br />
+          <p>
+            I create successful responsive websites that are fast, easy to use,
+            and built with best practices. The main area of my expertise is
+            front-end development, HTML, CSS, JS, building small and medium web
+            apps, custom plugins, features, animations, and coding interactive
+            layouts.
+          </p>
+        </div>
+        <div class="col-sm-5 aboutme" style="padding: 0px">
+          <div>
+            <h1>Skills</h1>
+            <hr color="white" />
+            <ol>
+              <li>C++</li>
+              <li>C</li>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Php</li>
+              <li>DBMS</li>
+              <li>ReactJs</li>
+              <li>Competative Programming</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="row certicate-project">
+        <div class="col-sm-6 certificate" style="padding: 0; margin:0;">
+          <div class="expert" id="expert">
+            <h2>Licenses and certifications</h2>
+            <ul class="certificate">
+              <li>
+                <a
+                  href="https://trainings.internshala.com/s/v/992159/2bc81b0c/"
+                  target="_blank"
+                >
+                  Web Development training 8-week</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-f466bb12-29c3-4986-816d-5df411495470/"
+                  target="_blank"
+                  >Learn How To Build Amazing Websites w/ HTML, CSS and Sass</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://graduation.udacity.com/confirm/JDNNKDCG"
+                  target="_blank"
+                  >AWS Machine Learning
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://insidesherpa.s3.amazonaws.com/completion-certificates/ANZ/Hf4QMESoFeQwXPsiH_ANZ_KZKYL7W3i7EcvBGQS_1644835635162_completion_certificate.pdf"
+                  target="_blank"
+                  >Cyber@ANZ Program</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-6189c980-818d-4b22-b9af-caa9dc402b22/"
+                  target="_blank"
+                  >Learn Ethical Hacking From A-Z: Beginner To Expert Course</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.hackerrank.com/ravindrakar9648?hr_r=1/"
+                  target="_blank"
+                  >Earn 5 ⭐ badge in C++ at HackerRank</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+<br>
+        <div class="col-sm-6" style="padding:0;margin:0; background-color: rgba(20, 20, 20, 0.936);">
+            <div class="projects" id="projects">
+          <h2>Projects</h2>
+          <ul class="projectsite">
+            <li>
+              <a href="https://shyamjitripathi.github.io/Healthcare-Space/"
+                >Healthcare-Space</a
+              >
+              <p>
+                It is the Website, where you can find the best Doctor in Jhansi
+                and book your appointment.
+              </p>
+            </li>
+            <li>
+              <a href="https://ravindra9555.github.io/Snowave/"
+                >Snowave</a
+              >
+              <p>
+                It is the website where you can know the temperature, humidity, wind speed, and pressure in your exact location.
+              </p>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </section>
+ <hr>
+    <footer class="contact" id="contact">
+        <div class="row">
+            <div class="col-sm-6">
+            <div class="contactus">
+             <a href="https://www.google.co.in/maps/place/Gautam+Buddha+Van+Vihar+Park/@27.4059148,83.1927707,13z/data=!4m5!3m4!1s0x0:0xff867fe74b3fe3f0!8m2!3d27.4059148!4d83.213229?hl=en&authuser=0" target="_blank">
+
+         
+                 <P> <img src="assets/img/location.png" alt="" style="width: 3%; margin-left: 10px; margin-right: 15px;"> Kakrahwa Bazar Siddharth Nager 272206</P>
+             </a>  
              
-        </div>
-    </div>
-    <div class="main">
-            
-        <div class="introContainer">
-            <div class="introduction">
-                <h1>Skills & Experience</h1>
-                <p>Since beginning my journey as a freelance developer nearly 10 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.<br><br>
-
-                   I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.<br><br>
-                   
-                   I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others) .<br><br>
-                   
-                   Visit my <a href="https://www.linkedin.com/in/ravindra-kumar-99a1301b2/" target="_blank">LinkedIn </a>for more details or just <a href="/contact.html">Contact me</a>.</p>
             </div>
-            <div class="skill">
-                <div class="language">
-                    <h3>Skills</h3>
-       <ul>
-               <li>C++</li>
-               <li>C</li>
-               <li>Java</li>
-               <li>HTML</li>
-               <li>CSS</li>
-               <li>JavaScript</li>
-               <li>Bootstrap</li>
-               <li>Php</li>
-               <li>DBMS</li>
-               <li>ReactJs</li>
-               <li>Competative Programming</li>
-
-
-       </ul>
-               
-                </div>
-                <div class="expert">
-                    <h1> Licenses and certifications </h1>
-                  <ul>
-                      <li><a href="https://www.udemy.com/certificate/UC-f466bb12-29c3-4986-816d-5df411495470/" target="_blank">Learn How To Build Amazing Websites w/ HTML,
-                       CSS and Sass</a></li>
-                      <li><a href="https://graduation.udacity.com/confirm/JDNNKDCG" target="_blank">AWS Machine Learning </a></li>
-                      <li><a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/ANZ/Hf4QMESoFeQwXPsiH_ANZ_KZKYL7W3i7EcvBGQS_1644835635162_completion_certificate.pdf" target="_blank">Cyber@ANZ Program</a></li>
-                      <li><a href="https://www.udemy.com/certificate/UC-6189c980-818d-4b22-b9af-caa9dc402b22/" target="_blank">Learn Ethical Hacking From A-Z: Beginner To Expert Course</a></li>
-                  </ul>
-
-                   </div>
-                </div>
+            <div class="contactus">
+                <a href="https://api.whatsapp.com/send?phone=+919648316865&text=Hello, more information!" target="_blank">
+                    <P> <img src="assets/img/whatsapp.png" alt="" style="width: 3%; margin-left: 10px; margin-right: 15px;"> +919648316865</P>
+                </a>
             </div>
-                 
+            <div class="contactus">
+                <a href="mailto: ravindrakar9658@gmail.com" target="_blank">
+                    <P> <img src="assets/img/mail.png" alt="" style="width: 3%; margin-left: 10px; margin-right: 15px;"> ravindrakar9658@gmail.com</P>
+                </a>
             </div>
-
-
-
-            <div class="contactform" style="padding-left:100px; background-color: black;">
-             <h1>Contact me for work\ general enquries </h1>
-            <form>
-                <div class="mb-3">
-                  <label for="clientemail" class="form-label">Name</label>
-                  <input type="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  
-                </div>
-                <div class="mb-3">
-                  <label for="clientemail" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="clientphone" class="form-label">Phone</label>
-                  <input type="phone" class="form-control" id="clientphone">
-                </div>
-                <div class="mb-3">
-                  <label for="clientphone" class="form-label">Enquiry</label>
-                  <input type="enquiry" class="form-control" id="clientphone">
-                </div>
-                <div class="mb-3 " id="form-check">
-                  <input type="checkbox" class="form-check-input" id="iscliet">
-                  <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-             </div>
+            </div>
+            <div class="col-sm-6">
+                
+<div class="aboutus">
+   <h2>About Me</h2>
+   <p>
+    Since beginning my journey as a freelance developer nearly 4 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
     
-<footer>
-    <div  class="mainbox">
-    <div class="left-box">
-        <h2>About me</h2>
-        <div class="content">
-            <p>Lorem ipsum, dolor sit <br>
-                amet consectetur
-                 adipisicing elit. Voluptatem <br>
-                 reprehenderit dicta quidem! <br>Delectus, adipisci<br>
-                  pariatur? Facere fugit odio voluptatibus</p> 
-     <div class="social">
-         <a href="https://www.linkedin.com/in/ravindra-kumar-99a1301b2/" target="_blank"><img src="assets/img/linkedin.png"></a>
-         <a href="https://github.com/Ravindra9555" target="_blank"><img src="assets/img/github.png"></a>
-         <a href="https://www.hackerrank.com/ravindrakar9648?hr_r=1" target="_blank"> <img src="assets/img/hackerrank.png"></a>
-         <a href="https://www.instagram.com/ravindra_prajapati_2.0/" target="_blank"> <img src="assets/img/insta.png"></a>
-  
-     </div>
-    </div>
+   </p>
 </div>
+<div class="social">
 
-    <div class="center-box">
-   <h2>Address</h2>
-   <div class="content">
-       <div class="palce">
-           <span class="text">Kakrahwa Bazar <br> Siddharth Nager <br> Uttar Pradesh (272206)</span>
-       </div>
-
-   </div>
-
-    </div>
-    <div class="right-box">
-        <h2>Contact Us</h2>
-        <div class="Phone">
-            <img src="assets/img/phone.png">
-            <span class="text">+91-9648316865</span>
+        <a href="https://github.com/Ravindra9555" target="_blank"><img src="assets/img/github.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/ravindra-kumar-99a1301b2/"target="-blank"><img src="assets/img/linkedin.png" alt=""></a>
+        <a href="https://www.hackerrank.com/ravindrakar9648?hr_r=1" target="_blank"><img src="assets/img/hackerrank.png" alt=""></a>
+        <a href="https://www.instagram.com/ravindra_prajapati_2.0/" target="_blank"><img src="assets/img/insta.png" alt=""></a>
+      
+</div>
+            </div>
         </div>
-        <div class="email">
-            <img src="assets/img/email.png">
-            <span class="text" > ravindrakar9658@gmail.com</span>
-        </div class="buttons">
-            <a href="contact.html"><button>Contact Me</button></a>
-        </div>
-    </div>
-    </div>
-    </div>
-</footer>
-        <script src="assets/js/main.js"></script>
-</body>
+    </footer>
+
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+  </body>
 </html>
