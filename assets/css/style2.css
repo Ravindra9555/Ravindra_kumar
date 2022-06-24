@@ -161,6 +161,7 @@ a.navbar-brand {
     font-size: 21px;
     background-color: aquamarine;
 }
+.expert ul{ list-style: none;}
 
 /*---------------------------projects-----------*/
 
@@ -176,6 +177,9 @@ a.navbar-brand {
     text-decoration: underline;
     margin-left: 20px;
  
+}
+.projects ul{
+  list-style: none;
 }
 .projects ul a{
     color:#10f5f1;
@@ -217,9 +221,9 @@ a.navbar-brand {
     color:white;
  }
  .social a img{
-     width:6%;
+     width:5%;
     margin:10px 30px 10px 30px;
  }
  .social a img:hover{
-     width: 5%;
+     width: 4%;
  }
