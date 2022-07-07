@@ -162,7 +162,9 @@ a.navbar-brand {
     background-color: aquamarine;
 }
 .expert ul{ list-style: none;}
-
+.certicate-project{
+  display: flex;
+}
 /*---------------------------projects-----------*/
 
  .projects{
